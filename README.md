@@ -12,7 +12,7 @@ This project code written in malloc.c to implment best fit, worst fit, next fit,
 </ul>  
 
 <h2>To Run</h2>
-<code>make</code> <br>
+<code>make</code> <br> <br>
 <code>env LD_PRELOAD=lib/libmalloc-ff.so tests/test1</code> <br>
 
 To run the other heap management schemes replace libmalloc-ff.so with the appropriate
